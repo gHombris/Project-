@@ -1,13 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Carros Esportivos - Início</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">🏎️ Esportivos Premium</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <header class="bg-danger text-white text-center p-5">
+    <h1>Loja de Carros Esportivos</h1>
+    <p>Os superesportivos mais desejados do mundo em um só lugar 🚀</p>
+  </header>
+
+  <!-- Seção de carros esportivos -->
+  <main class="container my-5">
+    <h2 class="text-center mb-4">Modelos em Destaque</h2>
+    <div class="row g-4">
+      <!-- Carro 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/400x250/ff0000/ffffff?text=Ferrari" class="card-img-top" alt="Ferrari">
+          <div class="card-body">
+            <h5 class="card-title">Ferrari F8 Tributo</h5>
+            <p class="card-text">720cv de potência, 0 a 100km/h em 2,9s e velocidade máxima de 340 km/h.</p>
+          </div>
+          <div class="card-footer text-center">
+            <a href="contato.html" class="btn btn-danger">Tenho Interesse</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carro 2 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/400x250/000000/ffffff?text=Lamborghini" class="card-img-top" alt="Lamborghini">
+          <div class="card-body">
+            <h5 class="card-title">Lamborghini Huracán EVO</h5>
+            <p class="card-text">640cv, motor V10 aspirado e design agressivo que impõe respeito.</p>
+          </div>
+          <div class="card-footer text-center">
+            <a href="contato.html" class="btn btn-danger">Tenho Interesse</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carro 3 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/400x250/0033cc/ffffff?text=Porsche" class="card-img-top" alt="Porsche">
+          <div class="card-body">
+            <h5 class="card-title">Porsche 911 Turbo S</h5>
+            <p class="card-text">650cv, 0 a 100km/h em 2,7s e tradição alemã em esportividade.</p>
+          </div>
+          <div class="card-footer text-center">
+            <a href="contato.html" class="btn btn-danger">Tenho Interesse</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center p-3">
+    <p>&copy; 2025 - Esportivos Premium</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
